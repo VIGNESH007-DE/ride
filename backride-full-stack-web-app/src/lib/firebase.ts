@@ -4,12 +4,13 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyCl1dwvVe--1DWK6jYExFJOBtQggiyvFxc",
+  authDomain: "back-ride.firebaseapp.com",
+  projectId: "back-ride",
+  storageBucket: "back-ride.firebasestorage.app",
+  messagingSenderId: "848393297300",
+  appId: "1:848393297300:web:09319cab09aad796c2c381",
+  measurementId: "G-NE0Q13YRMF"
 };
 
 const app = initializeApp(firebaseConfig);
